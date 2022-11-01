@@ -51,7 +51,9 @@ const App = () => {
           }}
         />
       </div>
-      <button onClick={handleChange}>Click</button>
+      <button onClick={handleChange} disabled={isActive ? true : false}>
+        Click
+      </button>
     </div>
   );
 };
