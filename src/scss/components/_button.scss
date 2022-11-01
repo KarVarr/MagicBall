@@ -1,15 +1,19 @@
 button {
-    border: none;
-    padding: 10px 15px;
-    background-color: darkslategray;
-    color: white;
-    box-shadow: 3px 3px 1.5px black;
-    cursor: pointer;
-    &:hover {
-      background-color: darken($color: darkslategray, $amount: 8)
-    }
-    &:active {
-    box-shadow: 1px 1px .5px black;
-      transform: translateY(1.5px);
-    }
+  width: 15rem;
+  height: 10rem;
+  font-size: 3rem;
+  border: none;
+  border-radius: 5rem;
+  padding: 10px 15px;
+  background-color: #ffd3b4;
+  color: #0c7b93;
+  box-shadow: 3px 3px 1.5px rgb(135, 135, 135);
+  cursor: pointer;
+  &:hover {
+    background-color: darken($color: #ffd3b4, $amount: 8);
   }
+  &:active {
+    box-shadow: 1px 1px 0.5px rgb(135, 135, 135);
+    transform: translateY(1.5px);
+  }
+}

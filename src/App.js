@@ -29,17 +29,16 @@ const textArr = [
 ];
 
 const App = () => {
-  const [text, setText] = useState('ask');
+  const [text, setText] = useState('Ask me about something!');
   const [isActive, setIsActive] = useState(false);
 
   const handleChange = () => {
-    setIsActive(false);
     setIsActive(true);
     setText(textArr[Math.floor(Math.random() * 6) + 1]);
     setTimeout(() => {
-      setText('ASK Again');
+      setText('Ask one more time');
       setIsActive(false);
-    }, '15000');
+    }, '5000');
   };
 
   return (
@@ -48,11 +47,11 @@ const App = () => {
         <Ball
           text={text}
           style={{
-            animation: isActive ? 'text 15s linear .5s infinite' : 'none',
+            animation: isActive ? 'text 5s linear 1s infinite' : 'none',
           }}
         />
       </div>
-      <button onClick={handleChange}>ASK</button>
+      <button onClick={handleChange}>Click</button>
     </div>
   );
 };

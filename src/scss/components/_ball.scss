@@ -1,17 +1,15 @@
 .ball {
-   
-    border: 1px red solid;
-    
-    span {
-      display: inline-block;
-      color: green;
-      max-width: 200px;
-      min-width: 200px;
-      max-height: 20px;
-      min-height: 20px;
-      padding: 15px 20px;
-      text-align: center;
-      //animation: text 50s linear 2s infinite;
-      will-change: transform;
-    }
+  span {
+    display: inline-block;
+    padding: 15px 20px;
+    color: #AA96DA;
+    max-width: 35rem;
+    min-width: 35rem;
+    max-height: 4rem;
+    min-height: 4rem;
+    text-align: center;
+    font-size: 4rem;
+    //animation: text 50s linear 2s infinite;
+    will-change: transform;
+  }
 }
