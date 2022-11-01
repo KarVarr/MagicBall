@@ -1,0 +1,35 @@
+.wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  .tv {
+    border: 10px gray solid;
+    border-radius: 20px;
+    padding: 20%;
+  }
+}
+
+@keyframes text {
+  20% {
+    color: deeppink;
+    filter: blur(3px);
+  }
+
+  50% {
+    color: darkviolet;
+  }
+
+  80% {
+    color: fuchsia;
+  }
+  100% {
+    transform: translateX(50px) translateY(-50px) rotate(20deg) scale(3);
+    color: black;
+    opacity: 0;
+    filter: blur(20px);
+    display: none;
+  }
+}

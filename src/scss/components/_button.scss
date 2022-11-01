@@ -1,0 +1,15 @@
+button {
+    border: none;
+    padding: 10px 15px;
+    background-color: darkslategray;
+    color: white;
+    box-shadow: 3px 3px 1.5px black;
+    cursor: pointer;
+    &:hover {
+      background-color: darken($color: darkslategray, $amount: 8)
+    }
+    &:active {
+    box-shadow: 1px 1px .5px black;
+      transform: translateY(1.5px);
+    }
+  }
