@@ -19,6 +19,10 @@
     display: grid;
     place-items: center;
     overflow: hidden;
+    @include respond(phone) {
+      width: 40rem;
+      height: 40rem;
+    }
   }
 }
 
@@ -34,12 +38,12 @@
 
   80% {
     color: fuchsia;
+    opacity: 0;
   }
   100% {
-    transform: translateY(200px) rotate(20deg) scale(2) skew(40deg, 40deg);
-    color: black;
-    opacity: 0;
-    filter: blur(20px);
+    transform: translateY(-200px) rotate(-20deg) scale(2.5) skew(40deg, 40deg);
+    color: transparent;
+    filter: blur(30px);
     display: none;
   }
 }

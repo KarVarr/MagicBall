@@ -5,7 +5,6 @@ import { useState } from 'react';
 const textArr = [
   'YES',
   'NO',
-  "Don't count on it",
   'Try it tomorrow',
   'It is certain',
   'It is decidedly so',
@@ -15,12 +14,8 @@ const textArr = [
   'As I see it, yes',
   'Outlook good',
   'Signs point to yes',
-  'Reply hazy try again',
   'Ask again later',
-  'Better not tell you now',
   'Cannot predict now',
-  'Concentrate and ask again',
-  "Don't count on it",
   'My reply is no',
   'My sources say no',
   'Most likely',
@@ -34,12 +29,13 @@ const App = () => {
 
   const handleChange = () => {
     setIsActive(true);
-    setText(textArr[Math.floor(Math.random() * 6) + 1]);
+    setText(textArr[Math.floor(Math.random() * textArr.length) + 1]);
     setTimeout(() => {
       setText('Ask one more time');
       setIsActive(false);
     }, '5000');
   };
+  console.log(text);
 
   return (
     <div className='wrapper'>
@@ -52,7 +48,7 @@ const App = () => {
         />
       </div>
       <button onClick={handleChange} disabled={isActive ? true : false}>
-        {isActive ? "..." : "Click"}
+        {isActive ? '...' : 'Click'}
       </button>
     </div>
   );

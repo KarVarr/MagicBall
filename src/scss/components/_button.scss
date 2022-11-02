@@ -9,6 +9,7 @@ button {
   color: #0c7b93;
   box-shadow: 3px 3px 1.5px rgb(135, 135, 135);
   cursor: pointer;
+  user-select: none;
   &:hover {
     background-color: darken($color: #ffd3b4, $amount: 8);
   }
@@ -16,5 +17,4 @@ button {
     box-shadow: 1px 1px 0.5px rgb(135, 135, 135);
     transform: translateY(1.5px);
   }
-  
 }
