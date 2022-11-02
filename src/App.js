@@ -47,12 +47,12 @@ const App = () => {
         <Ball
           text={text}
           style={{
-            animation: isActive ? 'text 5s linear 1s infinite' : 'none',
+            animation: isActive ? 'text 5s linear 1s infinite ' : 'none',
           }}
         />
       </div>
       <button onClick={handleChange} disabled={isActive ? true : false}>
-        Click
+        {isActive ? "..." : "Click"}
       </button>
     </div>
   );

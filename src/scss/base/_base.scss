@@ -9,8 +9,8 @@
   gap: 3rem;
   background-color: #98ddca;
   .tv {
-    width: 45rem;
-    height: 45rem;
+    width: 55rem;
+    height: 55rem;
 
     border-radius: 50%;
     background: #98ddca;
@@ -36,7 +36,7 @@
     color: fuchsia;
   }
   100% {
-    transform: translateX(50px) translateY(-50px) rotate(20deg) scale(3);
+    transform: translateY(200px) rotate(20deg) scale(2) skew(40deg, 40deg);
     color: black;
     opacity: 0;
     filter: blur(20px);
