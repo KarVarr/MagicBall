@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 .wrapper {
   margin: 0 auto;
   width: 100vw;
   height: 100vh;
+  font-family: 'Lobster', cursive, sans-serif;
+  background-color: #98ddca;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 3rem;
-  background-color: #98ddca;
   .tv {
     width: 55rem;
     height: 55rem;
