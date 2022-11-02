@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MagicBall/static/css/main.408abd14.css",
+    "main.css": "/MagicBall/static/css/main.9a0327cc.css",
     "main.js": "/MagicBall/static/js/main.86c39675.js",
     "index.html": "/MagicBall/index.html",
-    "main.408abd14.css.map": "/MagicBall/static/css/main.408abd14.css.map",
+    "main.9a0327cc.css.map": "/MagicBall/static/css/main.9a0327cc.css.map",
     "main.86c39675.js.map": "/MagicBall/static/js/main.86c39675.js.map"
   },
   "entrypoints": [
-    "static/css/main.408abd14.css",
+    "static/css/main.9a0327cc.css",
     "static/js/main.86c39675.js"
   ]
 }
