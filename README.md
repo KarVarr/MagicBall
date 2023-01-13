@@ -3,6 +3,6 @@
 ## Magic Ball simple app.
 - <a href="https://karvarr.github.io/MagicBall/">LINK</a>
 
-<img src='image/img.png' title='image' alt="image" width="300"/>
+<img src="image/img.webp" title="image" alt="image" width="300"/>
 
 
